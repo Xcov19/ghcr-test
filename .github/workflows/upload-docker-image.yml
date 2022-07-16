@@ -24,5 +24,5 @@ jobs:
     - name: Build the hello-world Docker image
       run: |
         docker pull mhart/alpine-node
-        docker image tag mhart/alpine-node ghcr.io/Xcov19/alpine-mycovid:latest
-        docker image push ghcr.io/Xcov19/alpine-mycovid:latest
+        docker image tag mhart/alpine-node ghcr.io/xcov19/alpine-mycovid:latest
+        docker image push ghcr.io/xcov19/alpine-mycovid:latest
